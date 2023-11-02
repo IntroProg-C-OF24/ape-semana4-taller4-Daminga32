@@ -29,11 +29,23 @@ public class TablaMultiplicar_3 {
         num6 = (num * 6);
         num7 = (num * 7);
         num8 = (num * 8);
-        num9 = (num * 1);
+        num9 = (num * 9);
         num10 = (num * 10);
         num11 = (num * 11);
         num12 = (num * 12);
-        System.out.println("La tabla del numero leido es: " + num1  + num2  + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10 + num11 + num12);
+        System.out.println("La tabla del numero leido es: ");
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println(num3);
+        System.out.println(num4);
+        System.out.println(num5);
+        System.out.println(num6);
+        System.out.println(num7);
+        System.out.println(num8);
+        System.out.println(num9);
+        System.out.println(num10);
+        System.out.println(num11);
+        System.out.println(num12);
     }
 
 }

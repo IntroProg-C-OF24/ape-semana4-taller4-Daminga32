@@ -8,7 +8,7 @@ public class PlanillaTelefono_4 {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Ingrese el costo por minuto de las llamadas: ");
         costoMin = teclado.nextDouble();
-        System.out.println("Ingrese el numero de minutos consumidos en elmes: ");
+        System.out.println("Ingrese el numero de minutos consumidos en el mes: ");
         numMin =teclado.nextDouble();
         Total = costoMin * numMin;
         System.out.println("El costo total mensual va a ser de:  "+Total);
