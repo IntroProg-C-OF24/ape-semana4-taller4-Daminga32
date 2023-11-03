@@ -11,7 +11,19 @@ public class PlanillaLuzDescuento_7 {
         double costoKiloHora;
         double numKiloMes;
         double valorCancelar;
-        Scanner teclado = 
+        int edad;
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Ingrese su edad:  "  );
+        edad = teclado.nextInt();
+        System.out.println("Ingrese el valor del cosoto kilovatio por hora: ");
+        costoKiloHora= teclado.nextDouble();
+        System.out.println("Ingrese el numero de kilovatios consumidos en el mes:  ");
+        numKiloMes=teclado.nextDouble();
+        valorCancelar=costoKiloHora*numKiloMes;
+        System.out.println("El costo de la planilla del mes sin descuento es de: "+valorCancelar);
+        System.out.println("El costo de la planilla del mes con descuento por mayor de edad  es de:   "+((valorCancelar*10)/100));    
+            
+            
     }
     
 }
